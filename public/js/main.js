@@ -42,6 +42,7 @@ function Connect(){
         addMessage("Client","You are successfully connected!");
 
         chatText.style = "display: flex;";
+        sendButton.style = "display: flex;";
     })
     
 
@@ -52,6 +53,9 @@ sendButton.onclick = ()=>{
 
     var message = chatText.value;
 
+    if (message == "") return;
+
+    chatText.value = "";
     console.log("[" + userName + "]: " + message);
 
     addMessage(userName,message);

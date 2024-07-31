@@ -22,7 +22,15 @@ body{
 #chatText{
     position: fixed;
     bottom: 0;
+    right: 5%;
+    width: 19.6%;
+}
+
+#sendButton{
+    position: fixed;
+    bottom: 0;
     right: 0;
+    width: 5%;
 }
 
 div.messageBox{
