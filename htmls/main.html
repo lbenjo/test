@@ -15,8 +15,10 @@
     </div>
     
     <input type="text" id="nameText" placeholder="Nickname" onkeypress="return event.charCode != 32">
-    <input type="text" id="chatText" placeholder="Message">
-    <input type="button" id="sendButton" value="Send">
+    <input type="button" id="enterGame" value="Connect" onclick="Connect()">
+    
+    <input type="text" id="chatText" placeholder="Message" style="display:none;">
+    <input type="button" id="sendButton" value="Send" style="display:none;">
 
     <script src="socket.io/socket.io.js"></script>
     <script src="js/main.js"></script>
