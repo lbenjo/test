@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#chatBox{
+    text-align:left;
+    position: fixed;
+    bottom: 3%;
+    right: 0;
+    width: 25%;
+    height: 30%;
+    background-color: lightgray;
+    border: none;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    flex-direction:column-reverse;
+    
+}
+
+div.messageBox{
+    
+    
+    text-align: left;
+    height: 10%;
+    width: 100%;
+    color: black;
+    background-color: aliceblue;
+}

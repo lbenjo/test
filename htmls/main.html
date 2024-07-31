@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="css/main.css" >
+    
+</head>
+<body>
+    
+    <div id="chatBox">
+          
+    </div>
+    
+    <input type="text" id="nameText" placeholder="Nickname" onkeypress="return event.charCode != 32">
+    <input type="text" id="chatText" placeholder="Message">
+    <input type="button" id="sendButton" value="Send">
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
