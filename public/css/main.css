@@ -5,6 +5,7 @@ body{
 
 #chatBox{
     text-align:left;
+    
     position: fixed;
     bottom: 3%;
     right: 0;
@@ -16,6 +17,12 @@ body{
     overflow-y: auto;
     flex-direction:column-reverse;
     
+}
+
+#chatText{
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 div.messageBox{
